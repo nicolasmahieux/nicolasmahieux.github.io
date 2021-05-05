@@ -55,3 +55,39 @@ img{
     margin-bottom: 32px;
     border-radius: 35px;
 }
+
+/* === Panel boxes === */
+.introduction-note-box { 
+    margin: 54px 0; /*  Only top and bottom margins have values */
+    padding: 16px; /* Same value on all four sides. */
+    border-style: solid; /* Same value on all four sides. */
+    border-width: 1px; /* All four borders have equal widths. */
+    border-color: #000; /* All four borders have same black color. */
+}
+
+/* Child sub-heading h3 inside panel boxes */
+.introduction-note-box h3 { 
+    font-family: 'Montserrat', sans-serif; /* Overrules h3 font-family value outside panel box. */
+    font-size: 20px; /* Overrules h3 font-size value outside panel box. */
+    margin-top: 0; /*  Overrules h3 margin-top value outside panel box. */
+    margin-bottom: 2px; /*  Overrules h3 margin-bottom value outside panel box. */
+    letter-spacing: 1px; /* New - just for h3 headings in panel boxes. */
+    text-transform: uppercase; /* New - just for h3 headings in panel boxes. */
+}
+
+/* Child paragraph p inside panel boxes */
+.introduction-note-box p { 
+    font-size: 18px; /* Overrules p font-size valueoutside panel box. */
+    line-height: 1.5; /* Overrules p line-height value outside panel box. */
+    margin-bottom: 0; /* Overrules p margin-bottom value outside panel box. */
+}
+
+ /* Panel box style 2 */
+ .introduction-note-box.box-style-introduction { 
+    padding: 16px 0 16px 0;
+    border-width: 8px 0 4px 0; /* Only top and bottom borders have width values */
+    border-color: #0782b3;
+ }
+ 
+ .introduction-note-box.box-style-introduction h3 { color: #044E6C }
+ .introduction-note-box.box-style-introduction p  { color: #044E6C }
