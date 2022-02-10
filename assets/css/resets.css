@@ -1,4 +1,4 @@
-/*  ============= WEB BROWSER RESETS ============ */
+/*  ============ WEB BROWSER RESETS =========== */
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -17,7 +17,7 @@ header, section, footer { width: 100% }
 /* Last element at bottom of header or section */
 header *:last-child, section *:last-child, footer *:last-child { margin-bottom: 0 }
 
-/* ================= ENDS ================ */
+/* ================ ENDS =============== */
 
 body {
     font-family: 'Poppins', sans-serif;

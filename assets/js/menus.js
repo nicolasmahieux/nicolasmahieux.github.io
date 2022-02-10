@@ -9,7 +9,7 @@ document.addEventListener('click', function(event) {
         //Add extra spacing above anchor
         let elemAnchor = document.querySelector(anchor_id)
         elemAnchor.classList.add('sticky-anchor');
-        //Close fly-out menu
+        //Close fly-out menuu
         toggleMobileMenu();
     }
     else {
